@@ -1,0 +1,402 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px 600px 465px) ;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+
+.container-header{
+    background-color: rgba(126, 118, 118, 0.123);
+    
+}
+
+.icon{
+    margin-left: 2rem;
+    height: 3rem;
+    width: 8rem;
+}
+
+.para2{
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.container-main{
+    background-color: white;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+.search i{
+    color: rgb(69, 69, 235);
+}
+
+.input1{
+    width: 31rem;
+    height: 2rem;
+    padding: 5px;
+    margin: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 182, 182);
+}
+
+.dash{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    margin: 0.7rem;
+    color: rgb(66, 66, 236);
+}
+
+select{
+    background-color: rgb(211, 208, 208);
+    border: none;
+}
+
+.image img{
+    height: 30rem;
+    width: 22rem;
+    
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    
+}
+
+.cards img{
+    display: flex;
+    flex-direction: row;
+    height: 9.8rem;
+    width: 15rem;
+    
+}
+
+.span1{
+    width: 90%;
+    border: px solid red;    
+}
+
+.details{
+    margin-left: 32rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.container-sidebar{
+    background-color: rgba(126, 118, 118, 0.123)
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: .7rem;
+    margin-left: 22rem;
+    margin-top: 1.7rem;
+    
+}
+
+.avatar1{
+    background-color: rgb(124, 209, 243);
+    padding: .5rem;
+    border-radius: 10px;
+    color: rgb(69, 69, 235);
+}
+
+.plus{
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: rgb(69, 69, 235);
+    color: whitesmoke;
+}
+
+.oct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    color: rgb(69, 69, 235);
+    
+}
+
+.para2{
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 17px;
+    color:  rgb(68, 68, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendar-d{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+}
+
+ .thurs, .sat, .sun{
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    
+}
+
+.mon, .wed, .fri{
+    padding-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    
+}
+
+.date{
+    font-weight: 600;
+    padding: .5rem;
+}
+
+.tues{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    
+}
+
+.tues{
+    background-color: rgba(126, 118, 118, 0.123);
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.sun{
+    color: rgb(182, 180, 180);
+}
+
+.time{
+    background-color: rgb(68, 68, 243);
+    padding: .3rem;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.time1{
+    background-color: rgb(172, 172, 223);
+    padding: .3rem;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.time2{
+    padding: .5rem;
+}
+
+.den-phy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
+
+.dentist1{
+    background-color: rgb(68, 68, 243);
+    border-radius: 20px;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+.dentist2{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    margin-bottom: .5rem;
+    
+}
+
+.dentist2 i{
+    margin-left: 4rem;
+    color: whitesmoke;
+}
+
+.den{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.app{
+    padding: .5rem;
+    background-color: rgb(177, 173, 173);
+    border-radius: 29px;
+    margin-left: 1rem;
+}
+
+.tim{
+    padding-left: 1rem;
+}
+
+.appo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
+
+.ap{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.appo img{
+    height: 1rem;
+    width: 1rem;
+    margin-left: .5rem;
+}
+
+.upcoming{
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.on{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.health-oph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;  
+      
+}
+
+.check1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.check1 i{
+    color: rgb(154, 228, 179);
+}
+
+.Oph2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.Oph2 i{
+    color: lightslategrey;
+}
+
+.hea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.health-check{
+    background-color: rgb(177, 173, 173);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.oph1{
+    background-color: rgb(177, 173, 173);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.car{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;   
+    
+}
+
+.car i{
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.neo{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.neo i{
+    color: rgb(82, 81, 81);
+    margin-bottom: 1rem;
+}
+
+.dr, .heart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.act-img{
+    background-color: rgba(126, 118, 118, 0.123);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.act{
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    margin-top: 1rem;
+    
+}
+
+.activity{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.this-3{
+    color: rgb(168, 166, 166);
+}
+
+.act-img img{
+    margin-top: 1rem;
+    width: 100%;
+    height: 8rem;
+}

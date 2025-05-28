@@ -1,0 +1,14 @@
+.para{
+    padding-left: 2rem;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para:hover{
+    background-color: rgb(179, 164, 164);;
+}
+
+.para span{
+    padding-left: 10px;
+}
